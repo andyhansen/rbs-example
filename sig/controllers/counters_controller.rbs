@@ -1,4 +1,7 @@
 class CountersController < ApplicationController
+  @counter: Counter
+  @counters: Array[Counter]
+
   # GET /counters or /counters.json
   def index: () -> untyped
 
