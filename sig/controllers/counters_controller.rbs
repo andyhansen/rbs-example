@@ -1,0 +1,30 @@
+class CountersController < ApplicationController
+  # GET /counters or /counters.json
+  def index: () -> untyped
+
+  # GET /counters/1 or /counters/1.json
+  def show: () -> nil
+
+  # GET /counters/new
+  def new: () -> untyped
+
+  # GET /counters/1/edit
+  def edit: () -> nil
+
+  # POST /counters or /counters.json
+  def create: () -> untyped
+
+  # PATCH/PUT /counters/1 or /counters/1.json
+  def update: () -> untyped
+
+  # DELETE /counters/1 or /counters/1.json
+  def destroy: () -> untyped
+
+  private
+
+  # Use callbacks to share common setup or constraints between actions.
+  def set_counter: () -> untyped
+
+  # Only allow a list of trusted parameters through.
+  def counter_params: () -> untyped
+end
